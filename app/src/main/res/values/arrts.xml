@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoViewFlipper">
+
+        <!-- 标题背景 默认为透明 -->
+        <attr name="title_background" format="reference|color"></attr>
+
+        <!-- 指示器背景 默认为透明 -->
+        <attr name="indicator_background" format="reference|color"></attr>
+
+        <!-- 显示标题 默认为true -->
+        <attr name="show_title" format="boolean"></attr>
+
+        <!-- 显示指示器 默认为true -->
+        <attr name="show_indicator" format="boolean"></attr>
+
+        <!-- 循环 默认为true -->
+        <attr name="loop" format="boolean"></attr>
+
+        <!-- 滑动灵敏度 默认50dp -->
+        <attr name="sensitive" format="reference|dimension"></attr>
+
+        <!-- 显示时间(间隔时间) 默认为3*1000 ms -->
+        <attr name="showTime" format="integer"></attr>
+
+        <!-- 指示器背景选择器  -->
+        <attr name="indicator_selector" format="reference"></attr>
+
+        <!-- 指示器的位置 -->
+        <attr name="gravity" format="enum">
+            <enum name="left" value="0"></enum>
+            <enum name="center" value="1"></enum>
+            <enum name="right" value="2"></enum>
+        </attr>
+    </declare-styleable>
+</resources>
